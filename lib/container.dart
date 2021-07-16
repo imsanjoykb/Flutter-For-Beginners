@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(MyApp_container());
 
 /// This Widget is the main application widget.
-class MyApp extends StatelessWidget {
+class MyApp_container extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
