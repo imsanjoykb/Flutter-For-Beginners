@@ -3,18 +3,10 @@ import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/decoration.dart';
 import 'package:flutter_application_1/listView.dart';
-import 'longList.dart';
+import 'routing.dart';
+import 'alertDialogs.dart';
 
-void main() {
-  runApp(MaterialApp(
-    title: 'Flutter Navigation',
-    theme: ThemeData(
-      // This is the theme of your application.
-      primarySwatch: Colors.green,
-    ),
-    home: FirstRoute(),
-  ));
-}
+void main() => runApp(MyAppalertDialogs());  
 /*
 class SchoolofEngg extends StatelessWidget {
   @override
