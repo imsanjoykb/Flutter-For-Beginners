@@ -15,7 +15,7 @@ class MyAppSnackBar extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter SnackBar Demo'),
+          title: Text('Flutter SnackBar Section'),
         ),
         body: SnackBarPage(),
       ),
