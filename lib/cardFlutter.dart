@@ -38,7 +38,7 @@ class MyCardWidget extends StatelessWidget {
           children: <Widget>[
             const ListTile(
               leading: Icon(Icons.album, size: 60),
-              title: Text('Sonu Nigam', style: TextStyle(fontSize: 30.0)),
+              title: Text('Music Corner', style: TextStyle(fontSize: 30.0)),
               subtitle: Text('Best of Music.', style: TextStyle(fontSize: 18.0)),
             ),
             ButtonBar(
