@@ -47,7 +47,7 @@ class MyCardWidget extends StatelessWidget {
                   child: const Text('Play'),
                   onPressed: () {/* ... */},
                 ),
-                RaisedButton(
+                RaisedButton( 
                   child: const Text('Pause'),
                   onPressed: () {/* ... */},
                 ),
